@@ -7,17 +7,35 @@ html {
     padding: 0;
 }
 body {
+    font-family: 'Inter' sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 .header {
+    background-color: #151515;
+
+}
+.header-main {
+    background-color: transparent;
 }
 .container {
-    background-color: blueviolet;
     max-width: 1220px;
     margin: 0 auto;
     padding: 0 10px;
 }
 .header__inner {
     padding-top: 40px;
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 .logo {
 }
@@ -26,9 +44,18 @@ body {
 .menu {
 }
 .menu__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+
 }
 .menu__list-item {
 }
 .menu__list-link {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    color: #fff;
+    text-transform: uppercase;
 }
-41/25
+1/06 
