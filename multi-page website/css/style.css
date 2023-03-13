@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body {
+}
+.header {
+}
+.container {
+    background-color: blueviolet;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header__inner {
+    padding-top: 40px;
+}
+.logo {
+}
+.logo__img {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__list-item {
+}
+.menu__list-link {
+}
+41/25
