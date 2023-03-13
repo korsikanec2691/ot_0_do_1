@@ -1,0 +1,163 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'Corporate-A-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Corporate-A-Bold.woff2') format(woff2),
+        url('../fonts/Corporate-A-Bold.woff') format(woff);
+}
+
+body {
+    background-color: #070A1B;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {}
+
+.header__nav-img {}
+
+.logo {}
+
+.logo__img {}
+
+.list {
+    display: flex;
+}
+
+.list__item+.list__item {
+    margin-left: 30px;
+}
+
+.list__link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background .3s;
+}
+
+.list__link:hover {
+    background-color: #C1A1D2;
+
+
+}
+
+.list__img {}
+
+.header__content {
+    min-height: calc(100vh - 100px);
+    background-image: url(../images/header__content.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.header__content::before {
+    content: "";
+    background-image: url(../images/logo-mers.svg);
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: -50px;
+
+}
+
+.title {
+    font-family: 'Corporate-A-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    margin-bottom: 5px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.title-discr {
+    font-size: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
+}
+
+.fotter {
+}
+.container {
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+.footer__link {
+}
+
+.concept {
+    padding-top: 150px;
+    margin-bottom: 150px;
+}
+.container {
+}
+.concept__inner {
+}
+.concept__title {
+}
+.section__title {
+}
+.concept__text {
+}
+.concept__img {
+}
