@@ -23,7 +23,7 @@ a {
 
 }
 .header-main {
-    background-color: transparent;
+    /* background-color: transparent; */
 }
 .container {
     max-width: 1220px;
@@ -58,4 +58,40 @@ a {
     color: #fff;
     text-transform: uppercase;
 }
-1/06 
+
+
+.footer {
+}
+.container {
+}
+.footer__menu {
+}
+.footer__menu-list {
+}
+.footer__menu-item {
+}
+.footer__menu-title {
+}
+.footer__menu-link {
+}
+.app {
+}
+.app__item {
+}
+.app__item-link {
+}
+.app__images {
+}
+.footer__copy {
+}
+.footer__copy-text {
+}
+.copy__nav {
+}
+.copy__nav-list {
+}
+.copy__nav-item {
+}
+.copy__nav-link {
+}
+1/14
