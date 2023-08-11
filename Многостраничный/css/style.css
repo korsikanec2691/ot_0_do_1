@@ -169,8 +169,22 @@ ul {
     .menu__btn {
         display: flex;
     }
-    .menu__menu-list {
-        display: none;
+    .header__menu-list {
+        width: 153px;
+        color: #FFF8F3;
+        background-color: #7B6152;
+        flex-direction: column;
+        gap: 20px 0;
+        padding: 25px 35px 25px 45px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translateY(-200%);
+        transition: transform .5s ease;
+    }
+    .header__menu-list.menu-open {
+        transform: translateY(0);
+    }
     }
 
 
@@ -190,4 +204,3 @@ ul {
         flex-direction: column;
     }
 }
-2.14
