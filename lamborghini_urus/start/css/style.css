@@ -34,7 +34,7 @@ button {
 }
 
 .container {
-    min-width: 1840px;
+    max-width: 1840px;
     padding: 0 10px;
     margin: 0 auto;
 }
@@ -48,7 +48,8 @@ button {
 .header__top {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    padding-top: 50px;
 }
 .logo {
 }
@@ -58,21 +59,53 @@ button {
 }
 .menu__btn {
     width: 70px;
-    
+    height: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .menu__btn span{
     background-color: #FF5017;
-    display: block;
+   width: 100%;
     height: 3px;
-    height: 23px;
 }
 .header__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 345px;
+line-height: 418px;
+/* identical to box height */
+
+background: linear-gradient(180deg, #000000 0%, #830B02 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
 }
 .header__images {
 }
 .subtitle {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 160px;
+line-height: 194px;
+/* identical to box height */
+
+background: linear-gradient(90deg, #FF5017 0%, #000000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
 }
 
 
