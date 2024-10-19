@@ -186,18 +186,39 @@ button {
 }
 
 .color {
+
+    background-color: #f8f8f8;
 }
 .color__text {
+    font-size: 160px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 70px;
 }
 .color__gallery {
+    background-color: #13171c;
 }
-.color__gallery-start {
+.color__gallery-start,
+.color__gallery-end {
+    width: 100%;
 }
 .color__gallery-box {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 170px 50px;
+}
+.color__gallery-box img {
+    max-width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 .gallery__box-item {
 }
 .gallery__box-text {
+    font-size: 36px;
+    color: #fff;
 }
 .color__gallery-end {
 }
