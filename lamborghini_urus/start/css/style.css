@@ -33,7 +33,7 @@ button {
 }
 
 .header {
-    background-image: url(../images/header-bg.png);
+    background-image: url(../images/header-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -53,11 +53,7 @@ button {
     padding-top: 50px;
 }
 
-.logo {}
 
-.logo__img {}
-
-.menu {}
 
 .menu__btn {
     width: 70px;
@@ -75,8 +71,7 @@ button {
 }
 
 .header__content {
-    height: calc(100vh + 115px);
-    /* height: 100vh; */
+    height: calc(100vh - 135px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -95,12 +90,11 @@ button {
 }
 
 .header__imeges {
-    width: 1536px;
-    height: 641px;
+    max-width: 100%;
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
+    top: 50;
     bottom: 0;
     margin: auto;
 }
@@ -178,11 +172,11 @@ button {
     align-items: center;
     gap: 20px;
     border-radius: 20px;
-    margin: 0 50px;  
+    /* margin: 0 50px;   */
 }
 
 .gall__img {
-    max-width: 520px;
+    max-width: 500px;
 }
 
 .color {
@@ -221,4 +215,89 @@ button {
     color: #fff;
 }
 .color__gallery-end {
+}
+
+.contacts {
+    background-color: #13171c;
+    padding: 170px 0 100px;
+    padding-bottom: 114px;
+}
+.contacts__title {
+    font-size: 36px;
+    color: #FF5017;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 67px;
+}
+.contacts__box {
+    max-width: 1350px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px 200px;
+    margin: 0 auto;
+
+}
+.contacts__info {
+    max-width: 560px;
+    color: #fff;
+}
+.contacts__headtext {
+    color: #BCBCBC;
+    margin-bottom: 20px;
+}
+.contacts__text {
+    max-width: 477px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.phone {
+}
+.contacts__text-rules {
+    max-width: 330px;
+    font-size: 14px;
+    padding-top: 77px;
+}
+.contacts__form {
+}
+.form  {
+    flex-basis: 594px;
+}
+.form__imput {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.3;
+    font-style: normal;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 594px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.form__imput::placeholder {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.3;
+    font-style: normal;
+    color: #fff;
+}
+.order {
+}
+.form__order {
+    width: 90%;
+}
+.futter {
+    font-size: 14px;
+    color: #fff;
+    background-color: #13171c;
+    text-align: center;
+    padding: 15px  0 90px;
+}
+.footer__link {
+
 }
