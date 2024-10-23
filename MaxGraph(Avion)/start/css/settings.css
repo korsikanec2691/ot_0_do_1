@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page {
+
+}
+
+.page__body {
+  font-family: var(--font-family);
+}
+.container {
+  max-width: calc(var(--container-width) + (var(--container-offset)));
+  padding: 0 var(--container-offset);
+  margin: 0 auto;
+}
+.btn__reset {
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+.list__reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header__reset {
+}
