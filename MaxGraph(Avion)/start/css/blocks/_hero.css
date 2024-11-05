@@ -40,6 +40,7 @@
 }
 
 .hero__images {
+  display: block;
   flex-shrink: 0;
   height: 100%;
 }
