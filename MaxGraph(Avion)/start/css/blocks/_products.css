@@ -6,13 +6,6 @@
   padding-bottom: 30px;
   margin: 0;
 }
-
-.list__reset {}
-
-.products__list {}
-
-.grid {}
-
 .products__item {
   grid-column: 3 span;
 }
