@@ -10,10 +10,12 @@ line-height: 140%;
 }
 .title--large{
   font-size: 32px;
-
 }
 .title--centered {
   text-align: center;
+}
+.title--mb-small {
+  margin-bottom: 32px;
 }
 .title--mb-large {
   margin-bottom: 50px;
