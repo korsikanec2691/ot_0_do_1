@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter__form {}
+
+.form__input {
+  width: 354px;
+  height: 56px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--dark-primary);
+  background-color: var(--light-grey);
+  border: none;
+  padding-left: 32px;
+  padding-right: 20px;
+}
+.form__input::placeholder {
+color: rgba(42, 37, 75, 0.2)
+}
+.form__btn {}

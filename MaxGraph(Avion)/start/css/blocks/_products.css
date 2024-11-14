@@ -14,6 +14,7 @@
 }
 
 .product {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -48,6 +49,11 @@
 .products__link {
   color: inherit;
   text-decoration: none;
+}
+.products__link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
 }
 
 .products_price {
