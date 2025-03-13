@@ -1,0 +1,99 @@
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+h1, h2, h3, p {
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 600;
+
+}
+
+.header {
+}
+.container {
+  max-width: 1740px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0 33px;
+
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.header__phone {
+}
+.title-img {
+  width: 1560px;
+}
+.title {
+}
+.title__text {
+}
+.header__content {
+}
+.header__info {
+}
+.header__info-list {
+}
+.header__info-item {
+}
+.header__social {
+}
+.header__social-list {
+}
+.header__cocial-item {
+}
+.header__social-link {
+}
+.header__news {
+}
+.header__news-box {
+}
+.header__news-title {
+}
+.header__news-time {
+}
+.header__news-link {
+}
+.header__news-img {
+}
+.header__buttons {
+}
+.header__buttons-book {
+}
+.header__buttons-activities {
+}
